@@ -25,3 +25,19 @@ public class School {
     public void addTeacher(Teacher teacher) {
         teachers.add(teacher);
     }
+
+    // Getter for list of students
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    // Getters for list of teachers
+    public List<Teacher> getTeachers() {
+        return teachers;
+    }
+
+    // Gets name of school
+    public String getName() {
+        return name;
+    }
+}
