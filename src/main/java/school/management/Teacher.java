@@ -10,3 +10,25 @@ public class Teacher {
         this.name = name;
         this.subject = subject;
     }
+
+    // Gets teacher name
+    public String getName() {
+        return name;
+    }
+
+    // Sets name of teacher
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Gets subject teacher teches
+    public String getSubject() {
+        return subject;
+    }
+
+    // Sets subject teacher teaches
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+}
+
