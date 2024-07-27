@@ -20,3 +20,8 @@ public class School {
     public void addStudent(Student student) {
         students.add(student);
     }
+
+    // Adds teacher to school
+    public void addTeacher(Teacher teacher) {
+        teachers.add(teacher);
+    }
