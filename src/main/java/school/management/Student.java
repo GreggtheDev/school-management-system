@@ -14,3 +14,34 @@ public class Student {
         this.age = age;
         this.grade = grade;
     }
+
+    // Gets name of student
+    public String getName() {
+        return name;
+    }
+
+    // Sets name of student
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Gets age of student
+    public int getAge() {
+        return age;
+    }
+
+    // Sets age of student
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Gets grade of student
+    public String getGrade() {
+        return grade;
+    }
+
+    // Sets grade of student
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+}
