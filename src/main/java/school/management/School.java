@@ -15,3 +15,8 @@ public class School {
         this.students = new ArrayList<>();
         this.teachers = new ArrayList<>();
     }
+
+    // Adds student ot the school
+    public void addStudent(Student student) {
+        students.add(student);
+    }
